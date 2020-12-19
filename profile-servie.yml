@@ -1,0 +1,4 @@
+service:
+  greeting: Testing the micro-service specific file
+server:
+  port: 8889
