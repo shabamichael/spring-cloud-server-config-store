@@ -1,14 +1,14 @@
 
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3306/Investments?createDatabaseIfNotExist=true
+    url: jdbc:mariadb://localhost:3306/Investment?createDatabaseIfNotExist=true
     username: root
     password: root
     driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     database: default
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
     generate-ddl: true
     show-sql: true
